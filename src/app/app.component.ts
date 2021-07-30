@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularPipe';
+  title = 'AngularPipe';  
+  todaydate = new Date();  
+  jsonval = {name: 'Rutuja', age: '23', address:{a1: 'Kothrud', a2: 'Pune'}};  
+  months = ['Jan', 'Feb', 'Mar', 'April', 'May', 'Jun',  
+    'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];  
 }
